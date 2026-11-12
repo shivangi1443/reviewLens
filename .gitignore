@@ -1,0 +1,13 @@
+# Local environments and Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Customer data: keep ignored by default.
+# Only force-add it if you have confirmed it is synthetic or approved for this private deployment.
+Customer_Sentiment.csv
